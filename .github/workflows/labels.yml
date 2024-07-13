@@ -1,5 +1,6 @@
 name: Sync labels
-on: [push]
+on:
+  workflow_dispatch:
 
 jobs:
   sync:
