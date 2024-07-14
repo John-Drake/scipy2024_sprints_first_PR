@@ -1,74 +1,220 @@
+- name: 'beginner-friendly'
+  color: '#FBCA04'
+  description: ''
+  aliases: []
+
+- name: 'bug-bash'
+  color: '#B7BBFE'
+  description: ''
+  aliases: []
+
+- name: 'bug-fix'
+  color: '#F55639'
+  description: "Something isn't working"
+  aliases: []
+
+- name: 'documentation'
+  color: '#0075CA'
+  description: 'Improvements or additions to documentation'
+  aliases: []
+
+- name: 'draft'
+  color: '#FEF2C0'
+  description: 'Draft PRs - do not merge'
+  aliases: []
+
+- name: 'duplicate'
+  color: '#CFD3D7'
+  description: 'This issue or pull request already exists'
+  aliases: []
+
+- name: 'enhancement-feature'
+  color: '#B60205'
+  description: 'something new to add to our guide'
+  aliases: []
+
 - name: 'good first issue'
-  color: '5319e7'
+  color: '#7057FF'
   description: 'Good for newcomers'
   aliases: []
 
 - name: 'help wanted'
-  color: '008672'
-  description: 'Extra attention is needed'
+  color: '#008672'
+  description: 'We welcome a contributor to work on this issue! thank you in advance!'
   aliases: []
 
-- name: 'status: pending'
-  color: c5def5
-  description: 'More info is needed before deciding what to do'
-  aliases: []
-
-- name: 'status: pinned'
-  color: 0052cc
-  description: 'Should not be labeled as stale'
-  aliases: []
-
-- name: 'status: stale'
-  color: fbca04
-  description: 'Inactive issues and PRs'
-  aliases: ['stale']
-
-- name: 'status: wontfix'
-  color: cfd3d7
-  description: 'This will not be worked on'
-  aliases: ['wontfix']
-
-- name: 'type: bug'
-  color: d73a4a
-  description: 'Verified problems that need to be worked on'
-  aliases: ['bug']
-
-- name: 'type: chore'
-  color: C5DEF5
-  description: 'Code changes that neither fix bugs nor add features (refactoring, dependency changes, ...)'
-  aliases: ['dependencies', 'type: dependencies', 'automation', 'type: automation']
-
-- name: 'type: docs'
-  color: C5DEF5
-  description: "Documentation changes"
-  aliases: ['documentation', 'maintenance', 'type: maintenance']
-
-- name: 'type: duplicate'
-  color: cfd3d7
-  description: 'This issue or pull request already exists'
-  aliases: ['duplicate']
-
-- name: 'type: feature'
-  color: 0E8A16
-  description: 'New feature or feature request'
-  aliases: ['enhancement', 'type: enhancement']
-
-- name: 'type: fix'
-  color: 1D76DB
-  description: 'Updates to existing functionalities'
-  aliases: ['fix']
-
-- name: 'type: invalid'
-  color: e4e669
+- name: 'invalid'
+  color: '#72EBCF'
   description: "This doesn't seem right"
-  aliases: ['invalid']
+  aliases: []
 
-- name: 'type: not a bug'
-  color: 0e8a16
-  description: 'Reports that happen not be our fault'
-  aliases: ['not a bug']
+- name: 'new-content'
+  color: '#72EBCF'
+  description: 'New feature or request'
+  aliases: []
 
-- name: 'type: question'
-  color: d876e3
+- name: 'pycascades'
+  color: '#006B75'
+  description: ''
+  aliases: []
+
+- name: 'pyconus-24'
+  color: '#A379D1'
+  description: ''
+  aliases: []
+
+- name: 'question'
+  color: '#D979E3'
   description: 'Further information is requested'
-  aliases: ['question']
+  aliases: []
+
+- name: 'ready-for-review'
+  color: '#2AE351'
+  description: ''
+  aliases: []
+
+- name: 'scipy-24'
+  color: '#D93F0B'
+  description: ''
+  aliases: []
+
+- name: 'sprintable'
+  color: '#124F43'
+  description: ''
+  aliases: []
+
+- name: 'translations'
+  color: '#006B75'
+  description: 'Translation and localization of content'
+  aliases: []
+
+- name: 'updates-underway'
+  color: '#50F9CA'
+  description: ''
+  aliases: []
+
+- name: 'UX'
+  color: '#27CFF3'
+  description: 'User experience'
+  aliases: []
+
+- name: 'bug'
+  color: '#D73A4A'
+  description: "Something isn't working"
+  aliases: []
+
+- name: 'content-update'
+  color: '#B26D92'
+  description: ''
+  aliases: []
+
+- name: 'dont merge'
+  color: '#E4E669'
+  description: 'Not ready to merge'
+  aliases: []
+
+- name: 'enhancement'
+  color: '#A2EEEF'
+  description: 'New feature or request'
+  aliases: []
+
+- name: 'great-first-pr'
+  color: '#B55A12'
+  description: ''
+  aliases: []
+
+- name: 'high-priority'
+  color: '#108B45'
+  description: ''
+  aliases: []
+
+- name: 'infrastructure'
+  color: '#DBCC9D'
+  description: ''
+  aliases: []
+
+- name: 'review-process-update'
+  color: '#16CE8F'
+  description: ''
+  aliases: []
+
+- name: 'reviews-welcome'
+  color: '#91E2F2'
+  description: ''
+  aliases: []
+
+- name: 'updates-in-progress-no-reviews'
+  color: '#BFDADC'
+  description: ''
+  aliases: []
+
+- name: 'wontfix'
+  color: '#FFFFFF'
+  description: 'This will not be worked on'
+  aliases: []
+
+- name: 'automated issue'
+  color: '#EDEDED'
+  description: ''
+  aliases: []
+
+- name: 'dependencies'
+  color: '#0366D6'
+  description: 'Pull requests that update a dependency file'
+  aliases: []
+
+- name: 'DO-NOT-MERGE'
+  color: '#E99695'
+  description: 'A caution that a PR is not ready to be merged'
+  aliases: []
+
+- name: 'feature:accessibility'
+  color: '#BFDADC'
+  description: 'Website improvements for accessibility'
+  aliases: []
+
+- name: 'feature:automation'
+  color: '#BFDADC'
+  description: 'CI and scripts for maintainability of site'
+  aliases: []
+
+- name: 'feature:content'
+  color: '#BFDADC'
+  description: 'New content, guide, or writing needed'
+  aliases: []
+
+- name: 'feature:design'
+  color: '#BFDADC'
+  description: 'Graphics, appeal, usability'
+  aliases: []
+
+- name: 'feature:theme'
+  color: '#BFDADC'
+  description: 'Improving or testing the theme of the website'
+  aliases: []
+
+- name: 'report'
+  color: '#EDEDED'
+  description: ''
+  aliases: []
+
+- name: 'ruby'
+  color: '#1D76DB'
+  description: ''
+  aliases: []
+
+- name: 'community feedback welcome'
+  color: '#E48AD0'
+  description: ''
+  aliases: []
+
+- name: 'dev-ops/gh-actions'
+  color: '#F9D0C4'
+  description: ''
+  aliases: []
+
+- name: 'priority'
+  color: '#FF5455'
+  description: ''
+  aliases: []
+
